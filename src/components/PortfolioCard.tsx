@@ -65,7 +65,7 @@ export const PortfolioCard: React.FC<PortfolioCardProps> = ({ item }) => {
             rel="noopener noreferrer"
             className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-sky-600 text-white font-bold text-sm transition-all duration-200 shadow-sm group/btn cursor-pointer"
           >
-            <span>View Website</span>
+            <span>View Live Demo</span>
             <ExternalLink className="w-4 h-4 text-slate-300 group-hover/btn:text-white transition-colors" />
           </a>
         </div>

@@ -63,14 +63,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSampleModal }) => {
             Websites Built Around Your Business
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            Dgrab is a web design studio creating affordable, modern, mobile-friendly websites for businesses in India and internationally. We help you present your business clearly and make it easy for customers to contact you.
+            Dgrab helps businesses build a professional online presence with modern websites designed around their goals, customers, and brand.
           </p>
           <div className="pt-4">
             <Link
-              to="/services"
+              to="/about"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm shadow-xs transition-colors"
             >
-              <span>Explore Our Services</span>
+              <span>Learn More About Dgrab</span>
               <ArrowRight className="w-4 h-4 text-slate-400" />
             </Link>
           </div>
