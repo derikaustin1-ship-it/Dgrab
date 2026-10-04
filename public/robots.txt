@@ -1,0 +1,12 @@
+# Dgrab Web Design Studio Robots.txt
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /work
+Allow: /process
+Allow: /about
+Allow: /faq
+Allow: /contact
+
+# XML Sitemap Location
+Sitemap: https://dgrab.vercel.app/sitemap.xml
