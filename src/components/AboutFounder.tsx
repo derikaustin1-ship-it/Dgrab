@@ -36,13 +36,15 @@ export const AboutFounder: React.FC<AboutFounderProps> = ({ onOpenSampleModal })
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative group w-full max-w-xs sm:max-w-sm">
                 <div className="absolute -inset-1 bg-gradient-to-r from-sky-400 to-blue-500 rounded-2xl blur-md opacity-30 group-hover:opacity-50 transition duration-500" />
-                <div className="relative rounded-2xl bg-white p-2 border border-slate-200 overflow-hidden shadow-md">
-                  <img
-                    src={founderPhoto}
-                    alt="Derik Austin S - Founder of Dgrab"
-                    className="w-full h-80 sm:h-96 object-cover object-top rounded-xl transition-transform duration-500 group-hover:scale-[1.02]"
-                  />
-                  <div className="absolute bottom-4 left-4 right-4 p-3 rounded-lg bg-white/95 backdrop-blur-md border border-slate-200/90 text-center shadow-md">
+                <div className="relative rounded-2xl bg-white p-3 border border-slate-200 overflow-hidden shadow-md space-y-3">
+                  <div className="rounded-xl overflow-hidden bg-slate-50">
+                    <img
+                      src={founderPhoto}
+                      alt="Derik Austin S - Founder of Dgrab"
+                      className="w-full h-auto max-h-[420px] object-cover object-top rounded-xl transition-transform duration-500 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div className="p-3 rounded-xl bg-slate-50 border border-slate-200/90 text-center">
                     <span className="font-heading font-extrabold text-slate-900 text-base block">Derik Austin S</span>
                     <span className="text-xs text-sky-600 font-bold">Founder, Dgrab</span>
                   </div>
